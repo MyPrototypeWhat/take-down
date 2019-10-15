@@ -17,6 +17,8 @@ FordRef创建一个Reaction组件，将它接收到的ref属性转发到树中�
 2.将refs转发到DOM组件
 
 # React.createRef
+
+```
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
@@ -32,11 +34,11 @@ class MyComponent extends React.Component {
     this.inputRef.current.focus();
   }
 }
-
+```
 createRef创建一个ref，它可以通过ref属性附加到Reaction元素。
 
 # React.Fragment
-可以简写为<></>
+可以简写为`<></>`
 
 # React.cloneElement()
 React.cloneElement()克隆并返回一个新的 ReactElement （内部子元素也会跟着克隆），新返回的元素会保留有旧元素的 props、ref、key。可以传入三个参数 
