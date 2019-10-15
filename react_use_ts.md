@@ -55,7 +55,6 @@ const Button: SFC<IProps> = ({onClick, children}) => {
 export default Button
 ```
 
-``` 
 
 # 事件处理
 
@@ -136,7 +135,7 @@ type Options = typeof options
 
 <u>(**keyof** 是索引类型查询操作符。假设T是一个类型，那么keyof T产生的类型是T的属性名称字符串字面量类型构成的联合类型。)</u>
 
-```
+```tsx
 import { MouseEvent } from 'react'
 import * as React from 'react'
 interface IProps {
@@ -161,7 +160,7 @@ const Button: SFC<Partial<IProps>> = ({onClick, children, color}) => {
 
 原先
 
-```
+```tsx
 interface Id { id: number, /* other fields */ }
 interface Name { name: string, /* other fields */ }
 declare function createLabel(id: number): Id;
@@ -169,24 +168,12 @@ declare function createLabel(name: string): Name;
 declare function createLabel(name: string | number): Id | Name;
 ```
 
-interface Name { name: string, /* other fields */ } 
-
-declare function createLabel(id: number): Id; 
-
-declare function createLabel(name: string): Name; 
-
-declare function createLabel(name: string | number): Id | Name; 
-
 **使用条件类型之后**
 
-```ts
+```tsx
 type IdOrName<T extends number | string> = T extends number ? Id : Name;
 declare function createLabel<T extends number | string>(idOrName: T): T extends number ? Id : Name;
 ```
-
-
-
-declare function createLabel<T extends number | string>(idOrName: T): T extends number ? Id : Name; 
 
 **通过传入的类型判断，如果T是number 那么就为Id，否则为Name**
 
@@ -234,7 +221,7 @@ type Pick<T, K extends keyof T> = {
 
 <u>假如我们现在有一个类型其拥有 name 、 age 、 sex 属性，当我们想生成一个新的类型只支持 name 、age 时可以像下面这样：</u>
 
-```
+```tsx
 interface Person {
   name: string,
   age: number,
@@ -245,22 +232,6 @@ let person: Pick<Person, 'name' | 'age'> = {
   age: 21,
 }
 ```
-
- name: string, 
-
- age: number, 
-
- sex: string, 
-
-} 
-
-let person: Pick<Person, 'name' | 'age'> = { 
-
- name: '小王', 
-
- age: 21, 
-
-} 
 
 ---
 
@@ -280,18 +251,12 @@ type Record<K extends keyof any, T> = {
 
 将 **name** 、 **age** 属性全部设为 **string** 类型。
 
-```
+```tsx
 let person: Record<'name' | 'age', string> = {
   name: '小王',
   age: '12',
 }
 ```
-
- name: '小王', 
-
- age: '12', 
-
-} 
 
 ---
 
@@ -305,7 +270,7 @@ let person: Record<'name' | 'age', string> = {
 
 排除 **name** 属性。
 
-```
+```tsx
 interface Person {
   name: string,
   age: number,
@@ -338,7 +303,7 @@ let person: Omit<Person, 'name'> = {
 
  **<u>infer R</u> 相当于声明一个变量，接收传入函数的返回值类型。**
 
-```
+```tsx
 type T1 = ReturnType<() => string>; // string 
 
 type T2 = ReturnType<(s: string) => void>; // void 
