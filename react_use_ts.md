@@ -124,7 +124,7 @@ const options = {
 type Options = typeof options
 ```
 
-##### 使用 **Partial **将所有的 props 属性都变为可选值
+使用 **Partial **将所有的 props 属性都变为可选值
 
 `type Partial<T> = { [P in keyof T]?: T[P] }; `
 
@@ -153,7 +153,7 @@ const Button: SFC<Partial<IProps>> = ({onClick, children, color}) => {
 
 ---
 
-#### 条件类型
+### 条件类型
 
 > TypeScript2.8引入了条件类型，条件类型可以根据其他类型的特性做出类型的判断。
 
