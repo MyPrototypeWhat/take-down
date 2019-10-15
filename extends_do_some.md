@@ -2,7 +2,7 @@
 
 > 继承的过程：一般继承分两步，call继承+原型的继承 （分别继承父类对象属行和原型属性）
 
-##第一步：
+## 第一步：
 
 **继承父类的原型**
 
@@ -22,7 +22,7 @@ function inherits(subClass, superClass) {
  }
 ```
 
-##第二步：
+## 第二步：
 
 **call继承**
 
@@ -43,7 +43,8 @@ function _possibleConstructorReturn(self, call) {
 var lily = function(_People) {
    inherits(lily, _People);  //第一步，继承父类原型
    function lily() {         //第二步，继承父类对象属性
-     return _possibleConstructorReturn(this, (lily.__proto__ || Object.getPrototypeOf(lily)).call(this));}
+     return _possibleConstructorReturn(this, (lily.__proto__ || Object.getPrototypeOf(lily)).call(this));
+   }
      //此时Object.getPrototypeOf(lily))返回的原型已经是父类的原型了
    _createClass(lily, [{     //第三步，创建子类自己的方法
     key: "goodbye",
