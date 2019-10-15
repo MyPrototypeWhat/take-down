@@ -65,7 +65,9 @@ st(left)->sub1->op(right)->sub2->op1(left)->sub3->op2(right)->sub4->sub5(right)-
 ```
 ~~~
 
-**注意：**
+![liucheng1](/Users/xuan/Desktop/testSpace/take down/liucheng1.png)
+
+注意：**
 
 **你是无法在父类的constructor调用之前在constructor中使用this的，JavaScript不允许你这样做，**
 
