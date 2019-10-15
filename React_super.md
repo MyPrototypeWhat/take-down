@@ -49,7 +49,6 @@ console.log(new son().who())
 
 **可以看出：执行顺序**
 
-~~~flow
 ```flow
 st=>start: 子类的constructor触发
 op=>operation:  super()触发父类的constructor
@@ -63,9 +62,8 @@ sub5=>subroutine: son_name
 e=>end
 st(left)->sub1->op(right)->sub2->op1(left)->sub3->op2(right)->sub4->sub5(right)->e->
 ```
-~~~
 
-![liucheng1](/Users/xuan/Desktop/testSpace/take down/liucheng1.png)
+![liucheng1](https://github.com/MyPrototypeWhat/take-down/blob/master/liucheng1.png)
 
 注意：**
 
