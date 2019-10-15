@@ -1,4 +1,4 @@
-# 安装 React、 React-dom 类型定义文件
+安装 React、 React-dom 类型定义文件
 
 `yarn add @types/react `
 
@@ -78,15 +78,14 @@ export default Button
 - AnimationEvent<T = Element> 动画事件对象
 - TransitionEvent<T = Element> 过渡事件对象
 
-​```tsx
+```tsx
 import { MouseEvent } from 'react’ 
-
 interface IProps { 
-   onClick (event: MouseEvent<HTMLDivElement>): void, 
-} 
+    onClick (event: MouseEvent<HTMLDivElement>): void, 
+}
 ```
 
-# Promise 类型
+#  Promise 类型
 
 > Promise<T> 是一个泛型类型，T 泛型变量用于确定使用 then 方法时接收的第一个回调函数（onfulfilled）的参数类型。
 
