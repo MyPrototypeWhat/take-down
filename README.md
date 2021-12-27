@@ -8,6 +8,8 @@
 - [网络层知识点](https://github.com/MyPrototypeWhat/take-down/issues/7) 
 - [Webpack原理浅析](https://github.com/MyPrototypeWhat/take-down/issues/8)
 - [Vue3 reactive源码解析](https://github.com/MyPrototypeWhat/take-down/issues/9) 
+- [React优化相关](https://github.com/MyPrototypeWhat/take-down/issues/17)
+- [React相关知识点](https://github.com/MyPrototypeWhat/take-down/issues/18)
 - [语法糖解析系列之——Class](https://github.com/MyPrototypeWhat/take-down/issues/13)
 - [语法糖解析系列之——async/await](https://github.com/MyPrototypeWhat/take-down/issues/14)
 - [语法糖解析系列之——箭头函数](https://github.com/MyPrototypeWhat/take-down/issues/15)
