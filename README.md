@@ -11,6 +11,7 @@
   - [React中使用ts-小记](https://github.com/MyPrototypeWhat/take-down/issues/2)
   - [React优化相关](https://github.com/MyPrototypeWhat/take-down/issues/17)
   - [React知识点](https://github.com/MyPrototypeWhat/take-down/issues/18)
+  - [setState做了什么](https://https://github.com/MyPrototypeWhat/take-down/issues/20)
 - `语法糖`源码解析系列
   - [——Class](https://github.com/MyPrototypeWhat/take-down/issues/13)
   - [——async/await](https://github.com/MyPrototypeWhat/take-down/issues/14)
