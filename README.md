@@ -1,7 +1,6 @@
 # take-down
 记一些平时的笔记
 <br/>
-- [收集一些面试题(包含出处)(持续更新)](https://github.com/MyPrototypeWhat/take-down/issues/5) 
 - [网络层知识点](https://github.com/MyPrototypeWhat/take-down/issues/7) 
 - [Webpack原理浅析](https://github.com/MyPrototypeWhat/take-down/issues/8)
 - [Vue3 reactive源码解析](https://github.com/MyPrototypeWhat/take-down/issues/9) 
