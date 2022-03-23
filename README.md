@@ -1,6 +1,8 @@
 # take-down
 记一些平时的笔记
 <br/>
+- 重构的思想 
+  - [重构的思想——概念篇](https://github.com/MyPrototypeWhat/take-down/issues/22)
 - [网络层知识点](https://github.com/MyPrototypeWhat/take-down/issues/7) 
 - `Webpack`相关
   - [Webpack原理浅析](https://github.com/MyPrototypeWhat/take-down/issues/8)
