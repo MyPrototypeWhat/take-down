@@ -24,4 +24,4 @@
   - [——数组相关函数（flat/flatMap/fill/forEach, map, filter, some, every, find, findIndex, filterReject/reduceArray.from/sort）](https://github.com/MyPrototypeWhat/take-down/issues/19) 
   - [——bind实现](https://github.com/MyPrototypeWhat/take-down/issues/21) 
   - TC39草案相关
-    -  
+    - [待续]()
