@@ -25,3 +25,4 @@
   - [——bind实现](https://github.com/MyPrototypeWhat/take-down/issues/21) 
   - TC39草案相关
     - [stage 0](https://github.com/MyPrototypeWhat/take-down/issues/24)
+    - [stage 4](https://github.com/MyPrototypeWhat/take-down/issues/25)
