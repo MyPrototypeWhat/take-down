@@ -27,5 +27,5 @@
   - TC39草案相关
     - [stage 0](https://github.com/MyPrototypeWhat/take-down/issues/24)
     - [stage 4](https://github.com/MyPrototypeWhat/take-down/issues/25)
- - Proxy实践
+ - `Proxy`实践
    - [immer源码解析（未完待续）](https://github.com/MyPrototypeWhat/take-down/issues/27)
