@@ -6,8 +6,6 @@
 - [网络层知识点](https://github.com/MyPrototypeWhat/take-down/issues/7) 
 - `Webpack`相关
   - [Webpack原理浅析](https://github.com/MyPrototypeWhat/take-down/issues/8)
-- `Vue`相关
-  - [Vue3 reactive源码解析](https://github.com/MyPrototypeWhat/take-down/issues/9) 
 - `React`相关
   - [Redux源码解析](https://github.com/MyPrototypeWhat/take-down/issues/6)  
   - [React优化相关](https://github.com/MyPrototypeWhat/take-down/issues/17)
