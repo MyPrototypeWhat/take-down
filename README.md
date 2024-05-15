@@ -8,9 +8,6 @@
   - [Webpack原理浅析](https://github.com/MyPrototypeWhat/take-down/issues/8)
 - `React`相关
   - [Redux源码解析](https://github.com/MyPrototypeWhat/take-down/issues/6)  
-  - [React优化相关](https://github.com/MyPrototypeWhat/take-down/issues/17)
-  - [React知识点](https://github.com/MyPrototypeWhat/take-down/issues/18)
-  - [setState做了什么](https://https://github.com/MyPrototypeWhat/take-down/issues/20)
   - [React-Scheduler源码解析](https://github.com/MyPrototypeWhat/take-down/issues/23)
   - [React-router@v6 源码解析（history路由）](https://github.com/MyPrototypeWhat/take-down/issues/26)
 - `语法糖`源码解析系列
