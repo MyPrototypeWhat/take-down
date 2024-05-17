@@ -12,7 +12,7 @@
   - [React-Scheduler源码解析](https://github.com/MyPrototypeWhat/take-down/issues/23)
   - [React-router@v6 源码解析（history路由）](https://github.com/MyPrototypeWhat/take-down/issues/26)
   - [TODO][React@v19源码解析]
-    - [调度]()
+    - [调度](https://github.com/MyPrototypeWhat/take-down/issues/28)
     - [TODO][render阶段]()
     - [TODO][commit阶段]()
 - `语法糖`源码解析系列
